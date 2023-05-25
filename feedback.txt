@@ -1,0 +1,45 @@
+Hi, this is Daniel Stabile, looking at your Assignment A4.
+
+At the end of this document is the output of our testing program and a table indicating
+the points for each part. This grading feedback is designed to help you understand 
+how you can improve your assignment. The final score will be out of 95 points.
+The autograder awards a maximum of 72 points for correctness. The remaining 23
+points will be manually awarded for styl and proper control flow (e.g using recursion rather
+than only for loops).
+
+Style
+-----
+
+-1 Did not remove all pass statements
+
+Functionality
+-------------
+
+Did not remove duplicates but had logic to ensure duplicates weren't created
+
+===========
+Start grading of a4.py
+
+Max points for safe_to_eat function: 24
+  5. Recursive case: Complex food that is safe student code returns: False but correct answer should be: True. 4 points deducted.
+Finished safe_to_eat function
+
+Max points for shopping_list function: 24
+Finished shopping_list function
+
+Max points for total_cooking_time function: 20
+Finished total_cooking_time function
+
+Max points for cooks_first function: 4
+  2. food2 cooks first student code returns: ['another long time', '51:50'] but correct answer should be: ['another long time', '25:50']. 1 point deducted.
+Finished cooks_first function
+
+1. safe_to_eat function          20 out of 24
+2. shopping_list function        24 out of 24
+3. total_cooking_time function   20 out of 20
+4. cooks_first function           3 out of  4
+---------------------------------------------
+Total                            67 out of 72
+Deductions:                      -1 (see above) removing from style
+
+Final Score: 67 (functionality) + 20 (control flow) + 2 (style/header) = 89 of 95
